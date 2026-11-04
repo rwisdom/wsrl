@@ -1,0 +1,13 @@
+// Baseline APL for the Restoration Shaman on the tank encounter (plan 3.4 step 1).
+// Written with forever's wowsims-siml skill as the guide; sim/siml/SPEC.md has the grammar.
+//
+// TODO, in priority order:
+//   1. keep Healing Way stacked on the tank (Healing Wave when the stack is missing or about to drop)
+//   2. Riptide on cooldown
+//   3. Chain Heal when the tank is low and friendlies are hurt
+//   4. Lesser Healing Wave as the quick filler when the tank is below a threshold
+//   5. Healing Wave when mana allows
+//   6. Wait otherwise
+//
+// This is the number the Policy must beat (gate G2). Run it with cmd/rlsim.
+siml 1

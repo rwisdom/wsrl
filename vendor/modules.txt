@@ -1,0 +1,55 @@
+# github.com/wowsims/forever v0.0.0 => ./third_party/forever
+## explicit; go 1.25.0
+github.com/wowsims/forever/assets/database
+github.com/wowsims/forever/sim/common
+github.com/wowsims/forever/sim/common/classic
+github.com/wowsims/forever/sim/common/forever
+github.com/wowsims/forever/sim/common/shared
+github.com/wowsims/forever/sim/core
+github.com/wowsims/forever/sim/core/buffs
+github.com/wowsims/forever/sim/core/dbcenums
+github.com/wowsims/forever/sim/core/itemfit
+github.com/wowsims/forever/sim/core/proto
+github.com/wowsims/forever/sim/core/simsignals
+github.com/wowsims/forever/sim/core/spelldata
+github.com/wowsims/forever/sim/core/stats
+github.com/wowsims/forever/sim/encounters
+github.com/wowsims/forever/sim/siml
+github.com/wowsims/forever/sim/warrior
+github.com/wowsims/forever/sim/warrior/protection
+# golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0
+## explicit; go 1.23.0
+golang.org/x/exp/constraints
+# google.golang.org/protobuf v1.36.10
+## explicit; go 1.23
+google.golang.org/protobuf/encoding/protojson
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/editiondefaults
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/json
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/protolazy
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+# github.com/wowsims/forever => ./third_party/forever

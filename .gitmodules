@@ -1,0 +1,6 @@
+[submodule "third_party/hsw-forever"]
+	path = third_party/hsw-forever
+	url = https://github.com/rwisdom/HSW-Forever
+[submodule "third_party/forever"]
+	path = third_party/forever
+	url = https://github.com/wowsims/forever
