@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wsrl"
+version = "0.1.0"
+description = "Restoration Shaman healing policy trained by RL against the WoWSims Forever simulator"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium",
+    "stable-baselines3",
+    "sb3-contrib",
+    "torch",
+    "numpy",
+    "lupa",
+    "tensorboard",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+# One entry point per script (docs/RL_Plan.md, "File map", Python).
+[project.scripts]
+wsrl-train = "wsrl.train:main"
+wsrl-evaluate = "wsrl.evaluate:main"
+wsrl-baseline = "wsrl.baseline:main"
+wsrl-pool = "wsrl.pool:main"
+wsrl-loop = "wsrl.loop:main"
+
+[tool.setuptools.packages.find]
+where = ["python"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: training runs that take a minute or more"]

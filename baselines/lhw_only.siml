@@ -1,0 +1,6 @@
+// Lesser Healing Wave whenever it is castable, otherwise wait (plan section 7 order step 4).
+// The SIML half of gate G1: tests/test_g1_scripted.py runs this through cmd/rlsim and the same
+// rotation (python/wsrl/policies.py lhw_spam) through the DLL; effective HPS must agree within noise.
+//
+// TODO: one rule casting Lesser Healing Wave on the tank; nothing else.
+siml 1

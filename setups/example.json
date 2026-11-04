@@ -1,0 +1,16 @@
+{
+  "_note": "One complete Setup (plan section 7). Fixture for Go and Python tests and the template for --gear/--talents. TODO: fill item ids from forever's database (a Resto Shaman gear set under ui/specs/shaman/restoration/gear_sets/ is a good start), a valid 60-point talents string, and the spell-id list copied from lib/restosham/spell_ids.go. Remove this key once filled.",
+  "items": {
+    "head": 0, "neck": 0, "shoulder": 0, "back": 0, "chest": 0, "wrist": 0, "hands": 0, "waist": 0,
+    "legs": 0, "feet": 0, "finger1": 0, "finger2": 0, "trinket1": 0, "trinket2": 0,
+    "main_hand": 0, "off_hand": 0, "ranged": 0
+  },
+  "talents": "",
+  "consumables": {},
+  "encounter": "tank",
+  "duration_seconds": 180,
+  "tank_preset": "protection_warrior_default",
+  "intake": { "rate": 0, "variance": 0 },
+  "spell_ids": [],
+  "aura_labels": ["Riptide", "Healing Way", "Water Shield"]
+}

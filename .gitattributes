@@ -1,0 +1,8 @@
+# Store and check out LF everywhere, including vendor/ Go sources, so bumps of the forever pin
+# diff only what changed and gofmt never sees CRLF.
+* text=auto eol=lf
+
+# Binary blobs: forever's embedded database and anything else that must never be normalized.
+*.bin binary
+*.dll binary
+*.png binary
